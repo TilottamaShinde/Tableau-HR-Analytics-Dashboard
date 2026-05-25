@@ -15,7 +15,7 @@ Build interactive KPI dashboards in Tableau
 Provide actionable HR insights for management
 
 ## Dataset Information
-# Source: IBM HR Analytics Employee Attrition Dataset
+### Source: IBM HR Analytics Employee Attrition Dataset
 Structure: Single-table dataset
 Records: Employees with HR attributes
 Key Columns:
@@ -43,16 +43,16 @@ Tableau Desktop
 Microsoft Excel / CSV
 IBM HR Dataset
 
-# Key Calculations (Tableau)
+### Key Calculations (Tableau)
 Total Employees
 
 COUNT(Employee Number)
 
-# Attrition Count
+### Attrition Count
 
 SUM(IF Attrition = 'Yes' THEN 1 ELSE 0 END)
 
-# Attrition Rate
+### Attrition Rate
 
 SUM(IF Attrition = 'Yes' THEN 1 ELSE 0 END)
 / COUNT(Employee Number)
@@ -60,5 +60,5 @@ SUM(IF Attrition = 'Yes' THEN 1 ELSE 0 END)
 
 ## Author
 
-# Tilottama Shinde
+### Tilottama Shinde
 Aspiring Data Analyst | Tableau | SQL | Python
